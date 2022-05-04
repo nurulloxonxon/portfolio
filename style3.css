@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+
+}
+.div{
+    transform: skew(10deg);
+    background-color: aqua;
+  
+  position: absolute;
+    height: 100%;
+    background-image: url("./and-css3-background-html-logo-text-first-aid-number-symbol-transparent-png-1094538.png");
+    background-repeat: no-repeat;
+  margin-left: 50px;
+  background-size: contain;
+    background-position:center ;
+width: 600px;
+}
+.div2{
+
+
+
+    transform: skew(10deg);
+    background-color: red;
+margin-left: 700px;
+    width: 30%;
+  position: absolute;
+
+    height: 100%;
+}
+.div3{
+    transform: skew(10deg);
+    background-color: blue;
+margin-left: 1000px;
+    width: 40%;
+  position: absolute;
+
+    height: 100%;
+}
+h1{
+  display: flex;
+  justify-content: center;
+padding-top: 100px;
+}
